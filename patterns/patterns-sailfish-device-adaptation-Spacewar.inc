@@ -1,21 +1,21 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-%package -n patterns-sailfish-device-adaptation-fp5
-Summary: Jolla HW Adaptation fp5
-Requires: droid-hal-fp5
-Requires: droid-hal-fp5-img-boot
-Requires: droid-hal-fp5-img-recovery
-Requires: droid-hal-fp5-kernel-dtbo
-Requires: droid-hal-fp5-tools
-Requires: droid-hal-fp5-vendor_boot
-Requires: droid-config-fp5-sailfish
-Requires: droid-config-fp5-pulseaudio-settings
-Requires: droid-config-fp5-policy-settings
-Requires: droid-config-fp5-preinit-plugin
-Requires: droid-config-fp5-flashing
-Requires: droid-config-fp5-bluez5
-Requires: droid-hal-version-fp5
+%package -n patterns-sailfish-device-adaptation-Spacewar
+Summary: Jolla HW Adaptation Spacewar
+Requires: droid-hal-Spacewar
+Requires: droid-hal-Spacewar-img-boot
+Requires: droid-hal-Spacewar-img-recovery
+Requires: droid-hal-Spacewar-kernel-dtbo
+Requires: droid-hal-Spacewar-tools
+Requires: droid-hal-Spacewar-vendor_boot
+Requires: droid-config-Spacewar-sailfish
+Requires: droid-config-Spacewar-pulseaudio-settings
+Requires: droid-config-Spacewar-policy-settings
+Requires: droid-config-Spacewar-preinit-plugin
+Requires: droid-config-Spacewar-flashing
+Requires: droid-config-Spacewar-bluez5
+Requires: droid-hal-version-Spacewar
 
 # Hybris packages
 Requires: libhybris-libEGL
@@ -97,7 +97,7 @@ Requires: sailfish-connman-plugin-suspend
 # Splash screen
 Requires: yamuisplash
 
-%description -n patterns-sailfish-device-adaptation-fp5
-Pattern with packages for fp5 HW Adaptation
+%description -n patterns-sailfish-device-adaptation-Spacewar
+Pattern with packages for Spacewar HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-fp5
+%files -n patterns-sailfish-device-adaptation-Spacewar

@@ -1,8 +1,8 @@
-%define device fp5
-%define vendor fairphone
+%define device Spacewar
+%define vendor nothing
 
-%define vendor_pretty Fairphone
-%define device_pretty Fairphone 5
+%define vendor_pretty Nothing
+%define device_pretty phone (1)
 
 %define android_version_major 14
 
@@ -36,8 +36,8 @@ Requires: libgbinder-tools
 %define pixel_ratio 1.75
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-fp5.inc
-%include patterns/patterns-sailfish-device-configuration-fp5.inc
+%include patterns/patterns-sailfish-device-adaptation-Spacewar.inc
+%include patterns/patterns-sailfish-device-configuration-Spacewar.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:

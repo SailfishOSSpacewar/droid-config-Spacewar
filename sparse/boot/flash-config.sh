@@ -1,4 +1,4 @@
-VALID_PRODUCTS=(FP5)
+VALID_PRODUCTS=(Spacewar)
 
 FLASH_OPS=(
 "getvar_fail_if unlocked no"
@@ -13,7 +13,6 @@ FLASH_OPS=(
 
 GETVAR_ERROR_unlocked="
 This device has not been unlocked, but you need that for flashing.
-Please go to https://www.fairphone.com/en/bootloader-unlocking-code-for-fairphone/ and see instructions how to unlock your device.
 "
 
 FLASH_COMPLETED_MESSAGE="

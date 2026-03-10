@@ -1,10 +1,10 @@
-= SAILFISH OS FOR FAIRPHONE 5 FLASHING GUIDE =
+= SAILFISH OS FOR NOTHING PHONE 1 FLASHING GUIDE =
 
 = FOR LINUX, WINDOWS AND OS X =
 
-= STEP 1: GETTING AN FAIRPHONE 5 =
+= STEP 1: GETTING AN NOTHING PHONE 1 =
 
-Get an Fairphone 5. To be able to replace the Android system with Sailfish OS,
+Get an Nothing Phone (1). To be able to replace the Android system with Sailfish OS,
 you will need to be able to unlock the bootloader of your device so that it
 can be flashed with a new operating system.
 
@@ -17,10 +17,10 @@ more difficult once the bootloader has been unlocked.
 
 = STEP 2: UNLOCKING THE BOOTLOADER =
 
-Make sure that the system language of your Fairphone 5 device is set to English
+Make sure that the system language of your Nothing Phone (1) device is set to English
 before you continue.
 
-Go to https://www.fairphone.com/en/bootloader-unlocking-code-for-fairphone/
+Go to google.com
 website.
 You should see additional instructions to prepare your device for unlocking:
 
@@ -41,15 +41,15 @@ command itself:
 * Fedora: yum install android-tools
 * OS X: brew install android-sdk
 
-= STEP 3 : FLASHING SAILFISH OS TO YOUR FAIRPHONE 5 =
+= STEP 3 : FLASHING SAILFISH OS TO YOUR NOTHING PHONE 1 =
 
 Connect your device to your PC in Fastboot mode as follows:
 
-* Disconnect your Fairphone device from your PC
+* Disconnect your Nothing Phone (1) device from your PC
 * Turn off the device. Leave it off for at least fifteen seconds.
 * Connect one end of a USB cable to your PC
 * While holding the 'Volume Down' button, connect the other end of the USB cable
-  to your Fairphone 5 device. You should see fastboot mode on display.
+  to your Nothing Phone (1) 5 device. You should see fastboot mode on display.
 * On Windows, fastboot drivers are needed to properly detect the device.
 * Launch the correct flashing script for your platform:
   * On Linux and OS X, use flash.sh

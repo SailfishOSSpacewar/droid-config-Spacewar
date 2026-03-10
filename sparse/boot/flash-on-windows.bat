@@ -1,21 +1,21 @@
 @echo off
 
-:: This is simple windows flashing script for Fairphone 5 device
+:: This is simple windows flashing script for Nothing phone device
 :: This script is using fastboot to flash which differs from the factory method.
 
 set tmpflashfile=tmpfile.txt
-set unlockwebsite=https://www.fairphone.com/en/bootloader-unlocking-code-for-fairphone/
+set unlockwebsite=https://google.com
 set fastbootkillretval=0
 set serialnumbers=
 
 echo(
-echo This is a Windows flashing script for Fairphone 5 device.
+echo This is a Windows flashing script for Nothing phone (1) device.
 echo(
 echo Power on the device in fastboot mode, by doing the following:
-echo 1. Turn off your Fairphone 5.
+echo 1. Turn off your Nothing phone.
 echo 2. Connect one end of a USB cable to your PC.
 echo 3. While holding the volume down button pressed, connect the other end of
-echo    the USB cable to your Fairphone 5.
+echo    the USB cable to your Nothing phone.
 echo 4. After this you should see the fastboot mode on display, and it will be
 echo    ready for flashing
 echo(
@@ -37,7 +37,7 @@ echo(
 echo Searching for a compatible device...
 
 :: Ensure that we are flashing right device
-:: FP5
+:: Spacewar
 
 @call :devices
 
@@ -61,7 +61,7 @@ exit /b 1
 for %%d in ( %serialnumbers% ) do (
   set fastbootcmd=%fastbootcmd_no_device% -s %%d
   @call :getvar product
-  findstr /R "FP5" %tmpflashfile% >NUL 2>NUL
+  findstr /R "Spacewar" %tmpflashfile% >NUL 2>NUL
   if not errorlevel 1 (
     call :new_product_found %%d
   )

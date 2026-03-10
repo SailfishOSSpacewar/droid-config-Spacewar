@@ -1,7 +1,7 @@
-%package -n patterns-sailfish-device-configuration-fp5
-Summary: Jolla Configuration fp5
-Requires: patterns-sailfish-device-configuration-common-fp5
-Requires: patterns-sailfish-device-adaptation-fp5
+%package -n patterns-sailfish-device-configuration-Spacewar
+Summary: Jolla Configuration Spacewar
+Requires: patterns-sailfish-device-configuration-common-Spacewar
+Requires: patterns-sailfish-device-adaptation-Spacewar
 
 # For devices with cellular modem. Those without one, please comment out:
 Requires: patterns-sailfish-cellular-apps
@@ -37,7 +37,7 @@ Requires: geoclue-provider-mlsdb
 # to improve camera startup times and the like
 Requires: mapplauncherd-booster-silica-qt5-media
 
-%description -n patterns-sailfish-device-configuration-fp5
-Pattern with packages for fp5 configurations
+%description -n patterns-sailfish-device-configuration-Spacewar
+Pattern with packages for Spacewar configurations
 
-%files -n patterns-sailfish-device-configuration-fp5
+%files -n patterns-sailfish-device-configuration-Spacewar
