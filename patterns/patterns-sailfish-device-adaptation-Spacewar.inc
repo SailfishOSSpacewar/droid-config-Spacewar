@@ -35,7 +35,7 @@ Requires: ofono-binder-plugin-ext-qti
 Requires: hybris-libsensorfw-qt5
 
 # Vibra
-Requires: ngfd-plugin-binder-vibrator
+Requires: ngfd-plugin-native-vibrator
 Requires: libngf-qt5-qtfeedback
 
 # Needed for /dev/touchscreen symlink
