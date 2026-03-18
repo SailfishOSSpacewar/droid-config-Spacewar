@@ -1,4 +1,4 @@
-%define device Spacewar
+%define device spacewar
 %define vendor nothing
 
 %define vendor_pretty Nothing
@@ -36,8 +36,8 @@ Requires: libgbinder-tools
 %define pixel_ratio 1.75
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-Spacewar.inc
-%include patterns/patterns-sailfish-device-configuration-Spacewar.inc
+%include patterns/patterns-sailfish-device-adaptation-spacewar.inc
+%include patterns/patterns-sailfish-device-configuration-spacewar.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
