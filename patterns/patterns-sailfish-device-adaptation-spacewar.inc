@@ -75,7 +75,7 @@ Requires: sailfish-devicelock-fpd
 Requires: sailfish-fpd
 
 # Enable home encryption
-Requires: sailfish-device-encryption
+# Requires: sailfish-device-encryption
 
 # For GPS
 Requires: geoclue-provider-hybris
