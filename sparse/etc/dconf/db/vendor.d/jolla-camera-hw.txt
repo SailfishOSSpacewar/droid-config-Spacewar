@@ -1,2 +1,3 @@
 [apps/jolla-camera]
 backCameraLabels=["M", "UW"]
+maxVideoResolution='3840x2160'
